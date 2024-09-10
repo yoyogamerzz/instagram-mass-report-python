@@ -5,8 +5,8 @@ import pickle
 import uuid
 from pathlib import Path
 
-username = input("Enter username: ")
-password = input("Enter password: ")
+username = input("Enter username: n0t.yoyo")
+password = input("Enter password: Abhi1234")
 
 #path for working dir
 cwd = Path().cwd()
