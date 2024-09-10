@@ -6,10 +6,10 @@ from pathlib import Path
 from files.helper import illegal, scam, pretend_me, pretend_someone
 #types of reports and choosing one
 reports = {"illegal": illegal, "scam": scam, "pretend_me": pretend_me, "pretend_someone": pretend_someone}
-report_username = input("Enter a report username : ")
+report_username = input("Enter a report username : taniya_pr23")
 for x in reports:
     print(x)
-report_type = input("enter one of the report types : ").lower().strip()
+report_type = input("enter one of the report types : hacked").lower().strip()
 report_function = reports[report_type]
 
 #function to automate the report
